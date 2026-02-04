@@ -1,0 +1,70 @@
+/* General Styling */
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #20b2ff;
+}
+
+.hero-text h4 {
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Services Section */
+.services {
+    text-align: center;
+    padding: 50px;
+    background-color: #111;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-card {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.service-card img {
+    width: 50px;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 50px;
+    background-color: #000;
+}
+
+.contact-info img {
+    width: 100px;
+}
+
+.contact-info p {
+    font-size: 18px;
+}
